@@ -10,6 +10,11 @@
     height : 75px;
     padding: 7px 0px 0px 0px;
 }
+.row
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .logo{
     color: #fff;
     font-size: 40px;
@@ -51,7 +56,6 @@ ul{
 .volunteerBtn{
     border: 1px solid #4d4641;
     height: 40px;
-    width: 63%;
     padding-top: 8px;
     text-transform: uppercase;
     font-weight: 600;
@@ -71,6 +75,7 @@ ul{
    padding-right: 0; 
    padding-left: 0; 
    margin-top: 6px;
+   width: 260px;
 }
 /*
     Media query for Header
@@ -115,10 +120,13 @@ nav
     font-weight : 600;
     letter-spacing:1px;
 }
-.navbar-nav li a{
+.navbar-nav li a,
+.navbar-nav li a:focus
+{
     color : #ffffff;
 }
-.navbar-nav li a:hover{
+.navbar-nav li a:hover,
+.nav li a:focus{
     background-color : #e0bb24
 }
 .navbar-form{
@@ -131,11 +139,8 @@ nav
    border:none;
 }
 .SearchBtn{
-  background-image: url(https://api.icons8.com/download/19343120d27c16dd3e9d21ad3aa637f94fd4d5fa/Android_L/PNG/256/Very_Basic/search-256.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  /* put the height and width of your image here */
-  height: 50px;
-  width: 200px;
+  height: 48px;
+  width: 50px;
   border: none;
+  font-size: 30px;
 }
